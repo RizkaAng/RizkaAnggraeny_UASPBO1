@@ -88,7 +88,7 @@ public class KecamatanViewFrame extends JFrame{
                     row[2] = rs.getString("nama_kabupaten");
                     row[3] = rs.getString("klasifikasi");
                     row[4] = rs.getInt("populasi");
-                    row[3] = rs.getDouble("luas");
+                    row[5] = rs.getDouble("luas");
                     dtm.addRow(row);
 
                 }
